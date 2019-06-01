@@ -1,0 +1,244 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Verdana','微软雅黑','华文细黑','Microsoft YaHei','黑体','宋体';
+}
+
+.wrapper{
+	width: 960px;
+	min-height: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.left_wrapper{
+	width: 300px;
+	float: left;
+}
+
+.right_wrapper{
+	width: 640px;
+	float: right;
+}
+
+.box{
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	font-size: 14px;
+	color: #333;
+}
+
+.box_bg_deco{
+	width: 70px;
+	height: 67px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background: url('../img/fudan-logo-70-green.png');
+	display: none;
+}
+
+.box_title{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 28px;
+	color: #34495e;
+	font-family: "Times New Roman";
+	margin-bottom: 10px;
+}
+
+.intro_photo_div{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	background: url('../img/photo.png');
+}
+
+.intro_name_div{
+	margin-top: 10px;
+}
+
+.intro_name_div p{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bo
+	color: #34495e;
+}
+
+.intro_title, .link_title{
+	height: 35px;
+	margin-top: 20px;
+	background: #a5d4ff;
+	text-align: center;
+	line-height: 35px;
+	color: #fff;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Times New Roman";
+}
+
+.intro_content, .link_content{
+	margin-top: 5px;
+	font-size: 13px;
+	word-break: break-all;
+	color: #666;
+}
+
+.intro_content a, .intro_content a:link, .intro_content a:visited, .link_content a, .link_content a:link, .link_content a:visited{
+	color: #666;
+}
+
+.link_content a, .link_content a:link, .link_content a:visited{
+	font-weight: bold;
+}
+
+.contact_title{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.link_content ul, .nav_box ul{
+	list-style: none;
+}
+
+.link_content li{
+	margin-top: 5px;
+}
+
+.update_box{
+	text-align: center;
+	color: #666;
+}
+
+.nav_box{
+	padding: 5px;
+	height: 35px;
+}
+
+.nav_box a, .nav_box a:link, .nav_box a:visited{
+	color: #34495e;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.nav_box li{
+	float: left;
+	width: 105px;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+
+.nav_box li:hover, .nav_current{
+	background: #a5d4ff;
+	color: #fff;
+}
+
+.show_box, .show_content{
+	width: 640px;
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.show_content_text{
+	display: none;
+}
+
+.show_content_img{
+	width: 640px;
+	height: 400px;
+}
+
+.news_list{
+	/*list-style: circle;*/
+	list-style: none;
+}
+
+.news_list li, .interest_content li, .publication_each_year li, .activity_box li, .teaching_box li{
+	/*margin-left: 20px;*/
+	font-size: 14px;
+	color: #333;
+	margin-top: 3px;
+}
+
+.news_list a, .news_list a:link, .news_list a:visited{
+	color: #34495e;
+}
+
+.news_date{
+	background: #ccc;
+	color: #fff;
+	padding: 2px;
+	font-size: 12px;
+}
+
+.viewmore_link{
+	margin-top: 10px;
+	text-align: right;	
+	font-family: "Times New Roman";
+	font-style: italic;
+}
+
+.viewmore_link a, .viewmore_link a:link, .viewmore_link a:visited{
+	color: #34495e;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.dblp_link{
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	font-size: 14px;
+	color: #888;
+}
+
+.dblp_link a, .dblp_link a:link, .dblp_link a:visited{
+	color: #888;
+	font-weight: bold;
+}
+
+.publication_year_title, .activity_title, .teaching_title, .news_year, .research_title{
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background: #a5d4ff;
+	text-align: center;
+	line-height: 35px;
+	color: #fff;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Times New Roman";
+}
+
+.publication_each_year ul, .activity_box ul, .teaching_box ul{
+	margin-left: 20px;
+}
+
+.publication_each_year a, .publication_each_year a:link, .publication_each_year a:visited,
+.activity_box a, .activity_box a:link, .activity_box a:visited,
+.teaching_box a, .teaching_box a:link, .teaching_box a:visited,
+.research_box a, .research_box a:link, .research_box a:visited{
+	color: #34495e;
+	font-weight: bold;
+}
+
+.research_img{
+	width: 600px;
+	margin-bottom: 10px;
+}
+
+.research_description{
+	text-indent: 2em;
+}
