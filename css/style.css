@@ -26,9 +26,6 @@ h6 {
 a {
     /*color: #7fab14;*/
     transition: all 0.5s ease-in-out;
-    /*跳转链接改变字体颜色，并添加下划线*/
-    color: #7fab14;
-    text-decoration: underline;
 }
 
 a:hover {
@@ -138,10 +135,11 @@ a:hover {
 
 /*--/ Title s /--*/
 
-.title-s {
+.title-s a{
     font-weight: 600;
     color: #1e1e1e;
     font-size: 1.1rem;
+    /*跳转链接改变字体颜色，并添加下划线*/
 }
 
 /*--/ Title A /--*/
@@ -1274,14 +1272,16 @@ footer .credits a {
     }
 }
 
-new_added_style1 {
-    font-family: Times New Roman, Times, serif;
 
-}
+.new_added_style1 a,  .skill-mf a{
+     font-family: Times New Roman, Times, serif;
+     /*跳转链接改变字体颜色，并添加下划线*/
+     color: #7fab14;
+     text-decoration: underline;
+ }
 
 
-new_added_style2 {
+.new_added_style2 {
     font-style: italic;
-
 }
 
