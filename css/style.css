@@ -1285,3 +1285,20 @@ footer .credits a {
     font-style: italic;
 }
 
+/*
+    增加折叠显示
+ */
+.displayN{
+    display: none;
+}
+.seeMore{
+    text-align: center;
+    font-size: 20px;
+}
+.more{
+    margin-top: 20px !important;
+    color: #0078ff !important;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
