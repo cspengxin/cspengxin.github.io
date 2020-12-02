@@ -114,4 +114,19 @@
 		}
 	});
 
+	textFolded();
+
 })(jQuery);
+
+function textFolded(){
+	$('#back-more').click(function(){
+		$('.displayN').removeClass("displayN");
+		$('#back-more').hide();
+	});
+
+	$('#fold').click(function(){
+		$('#folded').addClass("displayN");
+		$('#fold').addClass("displayN");
+		$('#back-more').show();
+	});
+}
